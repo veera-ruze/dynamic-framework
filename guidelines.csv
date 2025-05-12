@@ -1,0 +1,5 @@
+diabetes,fasting_glucose,8.00
+diabetes,hba1c,6.50
+prediabetes,fasting_glucose,6.90
+prediabetes,hba1c,6.40
+normal_glucose,fasting_glucose,8.00

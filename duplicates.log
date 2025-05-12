@@ -1,0 +1,2 @@
+icd_threshold('E11', 'Type 2 Diabetes Mellitus', 'hba1c', 1.0)
+icd_threshold('E11', 'Type 2 Diabetes Mellitus', 'hba1c', 2.0)

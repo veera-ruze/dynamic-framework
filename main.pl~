@@ -1,0 +1,21 @@
+% Load the patient file
+:- consult('medical_diagnosis.pl').
+:- consult('patients.pl').
+:- consult('patients_list.txt').
+
+:- dynamic patient/4.
+:- dynamic yes/1, no/1, measurement/2.
+
+go :-
+    write('What is the patient\'s name? '),
+    read_line_to_string(user_input, Name),
+    format('Hello ~w, we will start with some basic measurements.', [Name]), nl,
+    diabetes_risk_assessment(Name), nl, 
+    other_disease_assessment(Name), nl, 
+    undo.  % Clean-up facts for the next run
+    
+
+
+
+
+

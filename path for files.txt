@@ -1,0 +1,41 @@
+consult('C:/Users/Veera/Documents/Prolog/main.pl').
+write_patients_to_file('patients_db.txt').
+
+open('patients_db.txt', write, Stream), write(Stream, 'Test Write'), close(Stream).
+
+listing(load_patients).
+patient(Name, Age, Gender, MedicalHistory).
+load_patients('patients_db.txt')
+initialization(load_patients('patients_db.txt')).
+
+open('patients_db.txt', read, Stream),
+   read(Stream, Term),
+   write(Term), nl,
+   close(Stream).
+
+open('patients_db.txt', read, Stream)
+
+
+assertz(patient('Test Patient', 40, male, ['test_condition'])).
+
+assertz(patient('Another Patient', 35, female, ['hypertension'])).
+patient('Alice Green', 40, female, ['diabetes']).
+
+
+check_anthropometry('Michael Smith').
+
+
+exists_file('C:/Program Files/Python313/python.exe').
+
+C:/Users/Veera/Documents/Prolog/4270.pdf
+C:/Users/Veera/Documents/Prolog/output.txt
+
+other_disease_assessment('Marticia Adams').
+
+exists_file('C:/Users/Veera/Documents/Prolog/output.txt').
+
+
+CLIENT_ID = "3250136f-8d73-4439-9388-9443bfc533ac_8b5f1164-19ef-46f0-8848-7c120f6cf83d"
+CLIENT_SECRET = "sPW//SJIq6MhgF/8O/OlwGJ6If5coBmV0VNoMidxMWY="
+
+

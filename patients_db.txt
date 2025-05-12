@@ -1,0 +1,3 @@
+patient('John Smith', 78, male, [(diabetes,hypertension),headache,runny_nose,cough,body_ache,chills,sore_throat,sneezing,swollen_glands], anthropometry(78,189,21.83589485176787,1739177178.489208), 5.80, 8.90).
+patient('John Doe', 45, male, [diabetes,headache,runny_nose,cough,body_ache,chills,sore_throat,sneezing,swollen_glands], anthropometry(80,175,26.1,1672531200), 6.80, 9.80).
+patient('Alter Ego', 24, female, [copd,headache,runny_nose,cough,body_ache,chills,sore_throat,sneezing,swollen_glands], anthropometry(58,165,21.30394857667585,1739180915.49102), 7.80, 8.90).

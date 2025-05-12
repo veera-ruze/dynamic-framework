@@ -1,0 +1,23 @@
+{
+ 
+    "E11": {
+        "description": "Type 2 Diabetes Mellitus",
+        "thresholds": {
+            "fasting_glucose": 7.0,
+            "hba1c": 6.5
+        }
+    },
+    "E66": {
+        "description": "Obesity",
+        "thresholds": {
+            "bmi": 30.0
+        }
+    },
+    "R73": {
+        "description": "Prediabetes",
+        "thresholds": {
+            "fasting_glucose": "6.1",
+            "hba1c": "6.0"
+        }
+        }
+}

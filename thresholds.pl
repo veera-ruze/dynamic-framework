@@ -1,0 +1,10 @@
+icd_threshold('E11', 'Type 2 Diabetes Mellitus', 'hba1c', 2.0).
+icd_threshold('E11', 'Type 2 Diabetes Mellitus', 'hba1c', 1.0).
+icd_threshold('E11', 'Type 2 Diabetes Mellitus', 'fasting_glucose', 6.0).
+icd_threshold('E11', 'Type 2 Diabetes Mellitus', 'fasting_glucose', 7.0).
+icd_threshold('E11', 'Type 2 Diabetes Mellitus', 'hba1c', 6.0).
+icd_threshold('E11', 'Type 2 Diabetes Mellitus', 'hba1c', 29.0).
+icd_threshold('E11', 'Type 2 Diabetes Mellitus', 'hba1c', 31.0).
+icd_threshold('E11', 'Type 2 Diabetes Mellitus', 'hba1c', 33.0).
+icd_threshold('E11', 'Type 2 Diabetes Mellitus', 'hba1c', 76.0).
+icd_threshold('E11', 'Type 2 Diabetes Mellitus', 'fasting_glucose', 4.0).

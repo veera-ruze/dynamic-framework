@@ -1,0 +1,10 @@
+{
+    "fasting glucose": "fasting_glucose",
+    "hba1c": "hba1c",
+    "normal glucose": "normal_glucose",
+    "prediabetes": "prediabetes",
+    "diabetes": "diabetes",
+    "paastuglükoos": "fasting_glucose",
+    "HbA1c": "hba1c",
+    "Glükohemoglobiin": "hba1c"
+}

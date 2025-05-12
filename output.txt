@@ -1,0 +1,3 @@
+normal_glucose,fasting,8.0
+prediabetes,fasting,6.9
+diabetes,fasting,7.0
